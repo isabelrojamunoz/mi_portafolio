@@ -4,7 +4,24 @@ body {
 
 }
 
+.color-lila {
+    color: #86697B
+}
+
 h3 {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    color: #373A3C;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #373A3C;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #373A3C;
 }
