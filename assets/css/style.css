@@ -10,6 +10,25 @@ body {
 
 }
 
+.bg-lila {
+    background-color: #86697B;
+}
+
+#sobre-mi h3{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+}
+
+#sobre-mi p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+
+}
 .foto {
     background-image: url('../img/bg_hero.jpg');
     background-repeat: no-repeat;
@@ -22,7 +41,7 @@ body {
 .foto h3{
     font-weight: 300;
     text-decoration: underline;
-    padding-top: 70vh;
+    padding-top: 60vh;
 }
 
 .color-lila {
