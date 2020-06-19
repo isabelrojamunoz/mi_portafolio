@@ -16,12 +16,27 @@ h3 {
 
 h5 {
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #373A3C;
 }
 
 h6 {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #373A3C;
 }
+
+.texto-titulo {
+    font-family: 'Merriweather', serif;
+}
+
+.texto-parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+footer h2 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
