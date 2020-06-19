@@ -14,6 +14,11 @@ body {
     background-color: #86697B;
 }
 
+.ancho-borde {
+    width: 100px;
+    text-align: center;
+}
+
 #sobre-mi h3{
     font-size: 25px;
     font-family: 'Merriweather', serif;
@@ -35,13 +40,14 @@ body {
     background-size: cover;
     background-position: center;
     height: 507px;
+    padding-top: 60px;
     padding-bottom: 10px;
 }
 
 .foto h3{
     font-weight: 300;
     text-decoration: underline;
-    padding-top: 60vh;
+    padding-top: 354px;
 }
 
 .color-lila {
