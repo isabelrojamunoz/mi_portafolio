@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#trabajos">Trabajos</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#contacto">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -63,8 +63,9 @@
           </div>
           <div class="col"> 
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam</p>
+            <div class="text-center"><a href="#contacto" class="btn btn-light btn-lg active" role="button" aria-pressed="true">¡Contáctame!</a></div>
+            
           </div>
-
       </section>
 
       <section id="experiencia" class="experiencia container py-5">
@@ -95,6 +96,8 @@
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Tiuque administracion</h5>
                   <p class="card-text texto-parrafo">Felis tincidunt vel risus lacus</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#tiuque">
+                  Ver más
                 </div>
               </div>
             </div>
@@ -104,6 +107,9 @@
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Taller de Mapeo Colectivo en Recoleta</h5>
                   <p class="card-text">Felis tincidunt vel risus lacus</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#MapeoReco">
+                  Ver más
+                  </button>
                 </div>
               </div>
             </div>
@@ -113,6 +119,9 @@
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Afiche Feria de las pulgas y emprendimientos</h5>
                   <p class="card-text">Felis tincidunt vel risus lacus</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#feria">
+                  Ver más
+                </button>
                 </div>
               </div>
             </div>
@@ -122,15 +131,21 @@
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Reenmarcando la vejez a través del diseño</h5>
                   <p class="card-text">Felis tincidunt vel risus lacus.</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#vejez">
+                  Ver más
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="./assets/img/img5.jpg" class="card-img-top" alt="...">
+                <img src="./assets/img/img5.jpg" class="card-img-top" alt="Luminarias-huen">
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Luminarias Huen</h5>
                   <p class="card-text">Felis tincidunt vel risus lacus.</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#huen">
+                  Ver más
+                  </button>
                 </div>
               </div>
             </div>
@@ -140,15 +155,17 @@
                 <div class="card-body">
                   <h5 class="card-title texto-titulo">Proyecto fotográfico "Huellas"</h5>
                   <p class="card-text texto-parrafo">Felis tincidunt vel risus lacus.</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#huellas">
+                    Ver más
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-
       </section>
     </main>
     
-    <section id="contacto py-3">
+    <section id="contacto" class="py-3">
       <div class="typeform-widget" data-url="https://form.typeform.com/to/EeMQKX" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=EeMQKX&utm_source=typeform.com-01EAAZSEJTZPKWZTQ2ZT5W548E-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
     </section>
 
@@ -166,6 +183,132 @@
       </div>
     </footer>
     
+    <!-- Modal -->
+    <div class="modal fade" id="tiuque" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Tiuque administración</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/img/img1.jpg" class="card-img-top pb-3" alt="tiuque-administracion">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa, distinctio asperiores corporis repellat corrupti doloremque provident voluptatibus mollitia ipsam placeat totam maiores quae incidunt similique dignissimos nostrum harum accusantium.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis maxime distinctio ea molestiae eligendi veniam voluptatibus, modi soluta sapiente laboriosam magni sint explicabo quasi! Quos eos laboriosam a cum.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MapeoReco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Taller de mapeo colectivo Recoleta</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/img/img2.jpg" class="card-img-top pb-3" alt="taller-mapeo-recoleta">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam voluptates quidem perspiciatis dolorum, dolorem eligendi. Officiis dignissimos labore ab est debitis delectus quos ea consequuntur quas iusto! Minima, quisquam!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptatibus ut obcaecati quas voluptatem facere a tenetur commodi! Distinctio illum mollitia magni minima corrupti quod deserunt ad repudiandae quasi eos.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="feria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Feria de las pulgas y emprendimientos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/img/img3.jpg" class="card-img-top pb-3" alt="feria">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa, distinctio asperiores corporis repellat corrupti doloremque provident voluptatibus mollitia ipsam placeat totam maiores quae incidunt similique dignissimos nostrum harum accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis maxime distinctio ea molestiae eligendi veniam voluptatibus, modi soluta sapiente laboriosam magni sint explicabo quasi! Quos eos laboriosam a cum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="vejez" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Reenmarcando la vejez a través del diseño</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/img/img4.jpg" class="card-img-top pb-3" alt="vejez">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa, distinctio asperiores corporis repellat corrupti doloremque provident voluptatibus mollitia ipsam placeat totam maiores quae incidunt similique dignissimos nostrum harum accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis maxime distinctio ea molestiae eligendi veniam voluptatibus, modi soluta sapiente laboriosam magni sint explicabo quasi! Quos eos laboriosam a cum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="huen" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Luminarias Huen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/img/img5.jpg" class="card-img-top pb-3" alt="Luminarias-huen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa, distinctio asperiores corporis repellat corrupti doloremque provident voluptatibus mollitia ipsam placeat totam maiores quae incidunt similique dignissimos nostrum harum accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis maxime distinctio ea molestiae eligendi veniam voluptatibus, modi soluta sapiente laboriosam magni sint explicabo quasi! Quos eos laboriosam a cum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="huellas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Luminarias Huen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/img/img6.jpg" class="card-img-top pb-3" alt="Luminarias-huen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa, distinctio asperiores corporis repellat corrupti doloremque provident voluptatibus mollitia ipsam placeat totam maiores quae incidunt similique dignissimos nostrum harum accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis maxime distinctio ea molestiae eligendi veniam voluptatibus, modi soluta sapiente laboriosam magni sint explicabo quasi! Quos eos laboriosam a cum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--jQuery 3.5.1 sin slim-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
