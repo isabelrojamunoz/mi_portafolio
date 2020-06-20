@@ -44,7 +44,7 @@ hr {
 }
 
 .foto h3{
-    font-weight: 280;
+    font-weight: 300;
     font-size: 40px;
 }
 
@@ -55,12 +55,12 @@ hr {
     width: 220px;
 }
 
-
 .color-lila {
     color: #86697B;
 }
 
 h3 {
+    font-size: 30px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #373A3C;
@@ -74,7 +74,7 @@ h5 {
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #373A3C;
@@ -105,4 +105,143 @@ footer a:visited {
 footer a:hover {
     color: #ffffff;
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .foto {
+        background-image: url('../img/bg_hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 737px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .foto h3{
+        font-weight: 300;
+        font-size: 48px;
+    }
     
+    .foto div {
+        padding-top: 460px;
+    }
+
+    .foto hr{
+        width: 420px;
+    }
+
+    h3 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: #373A3C;
+    }
+    
+    h5 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #373A3C;
+    }
+    
+    h6 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #373A3C;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .foto {
+        background-image: url('../img/bg_hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 737px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .foto h3{
+        font-weight: 300;
+        font-size: 72px;
+    }
+    
+    .foto div {
+        padding-top: 460px;
+    }
+
+    .foto hr{
+        width: 420px;
+    }
+
+    h3 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: #373A3C;
+    }
+    
+    h5 {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #373A3C;
+    }
+    
+    h6 {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #373A3C;
+    }
+}
+
+@media (min-width: 1200px) {
+    .foto {
+        background-image: url('../img/bg_hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 737px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .foto h3{
+        font-weight: 300;
+        font-size: 72px;
+    }
+    
+    .foto div {
+        padding-top: 460px;
+    }
+
+    .foto hr{
+        width: 420px;
+    }
+
+    h3 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: #373A3C;
+    }
+    
+    h5 {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #373A3C;
+    }
+    
+    h6 {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #373A3C;
+    }
+
+}
