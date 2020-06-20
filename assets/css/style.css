@@ -14,9 +14,8 @@ body {
     background-color: #86697B;
 }
 
-.ancho-borde {
-    width: 100px;
-    text-align: center;
+hr {
+    width: 115px;
 }
 
 #sobre-mi h3{
@@ -45,13 +44,20 @@ body {
 }
 
 .foto h3{
-    font-weight: 300;
-    text-decoration: underline;
-    padding-top: 354px;
+    font-weight: 280;
+    font-size: 40px;
 }
 
+.foto div {
+    padding-top: 300px;
+}
+.foto hr{
+    width: 200px;
+}
+
+
 .color-lila {
-    color: #86697B
+    color: #86697B;
 }
 
 h3 {
@@ -86,5 +92,17 @@ h6 {
 footer h2  {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif; 
+}
+
+footer a:link {
+    color: #ffffff;
+}
+
+footer a:visited {
+    color:#3B2833;
+}
+
+footer a:hover {
+    color: #ffffff;
 }
     
